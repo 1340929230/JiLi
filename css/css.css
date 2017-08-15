@@ -270,7 +270,7 @@ body{
      left: 84px; top: 0;background:green;
      animation:circleLoad_4 6s ease-in;
  }
- #cent,#cfnt{
+ #cent,#cfnt,#cgnt,#chnt{
  	position: relative;
  }
  #three #cent a{
@@ -304,4 +304,36 @@ body{
 	line-height: 1.5;
 	font-size: 12px;
 	text-indent: 2em;
+ }
+ #three #cgnt a{
+  font-weight: bold;
+  position: absolute;
+  left: 110px;
+  top: 150px;
+  font-size: 14px;
+ }
+ #three #cgnt p{
+  position: absolute;
+  left: 110px;
+  top: 180px;
+  margin: 0 20px;
+  line-height: 1.5;
+  font-size: 12px;
+  text-indent: 2em;
+ }
+ #three #chnt a{
+  font-weight: bold;
+  position: absolute;
+  left: 110px;
+  top: 250px;
+  font-size: 14px;
+ }
+ #three #chnt p{
+  position: absolute;
+  left: 110px;
+  top: 280px;
+  margin: 0 20px;
+  line-height: 1.5;
+  font-size: 12px;
+  text-indent: 2em;
  }
